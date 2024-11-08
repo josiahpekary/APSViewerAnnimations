@@ -1,0 +1,11 @@
+.viewerLaunched {
+    height: 70vh;
+}
+
+.adsk-viewing-viewer {
+    height: 70vh !important;
+}
+
+.download-button {
+    opacity: 30%;
+}

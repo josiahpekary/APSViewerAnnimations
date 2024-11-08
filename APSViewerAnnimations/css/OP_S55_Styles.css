@@ -1,0 +1,86 @@
+.form-row {
+    margin-bottom: 10px;
+}
+.card-header {
+    transition: background-color .3s;
+}
+.infoIMG {
+    height: 40px;
+    width: 40px;
+    border: black solid 1px;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.infoIMG:hover {
+background-color: rgb(192, 192, 192);
+}
+.ToolBarIMG {
+    height: 45px;
+    width: 40px;
+}
+.collapseInfo {
+    position: fixed;
+    z-index: 2;
+    width: 35%;
+    max-height: 90%;
+    bottom: 0%;
+    left: 50%;
+    transition: opacity none;
+    transition: height .2s;
+    opacity: 1;
+}
+.FrameIMG {
+    width: 80px;
+    height: 80px;
+    box-shadow: 10px 10px 5px grey;
+    border: solid 1px;
+    border-radius: 5px;
+    transition: border .1s ease-in-out;
+}
+.FrameIMG:hover {
+    border-width: 5px;
+}
+#UpdateViewer {
+    margin-top: 10px;
+}
+#myViewer {
+    position: relative;
+    width: 100%;
+    height: 75vh;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+.overflow-auto {
+    max-height: 55vh;
+}
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: rgb(76, 107, 175);
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: rgb(76, 107, 175);;
+    cursor: pointer;
+  }
