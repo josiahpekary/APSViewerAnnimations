@@ -45,14 +45,14 @@ for oTime = 0 to 60
     Parameter("Your Parameter") = 1 + oTime * 2
 next
 ```
-will drive the parameter from 0 to 120, all of the component data will be gathered during this movement and exported to a .txt file
+    will drive the parameter from 0 to 120, all of the component data will be gathered during this movement and exported to a .txt file
 * now translate the assembly to .svf and load the model into the viewer: 
 * You will need to update the max attribute of the slider to match the length of the frame data array. 
     * For example, if you used:
 ```
 for oTime = 0 to 60
 ```
-then you must update the line in ForgeVeiwer.js to:
+    then you must update the line in ForgeVeiwer.js to:
 ```
 $("#doorSlider").attr("max", 60);
 ```
