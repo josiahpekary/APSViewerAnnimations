@@ -3,6 +3,10 @@
 This project is meant to gather annimation data from Inventor (through the component data while driving constraints or parameters), and read that data in the APS viewer for the same object. 
 This leverages the powerful constraint and assembly building capabilities in Inventor to drive annimations and transformations on the web
 
+
+https://github.com/user-attachments/assets/83aa3d13-a6ad-4bee-9823-ed294c9f54c9
+
+
 ## Description
 
 This repository consists of a simple front end application, (vanilla JS and Jquery). That initializes the APS viewer with a model and then reads transformation data from a text file.
