@@ -14,19 +14,19 @@ that is used to gather the annimation data from any Inventor assembly (with some
 ### Prerequisites
 
 * Autodesk Inventor Proffesional and an assembly to be annimated.
-* How to get started with the APS Viewer:
-* How to move and rotate objects in the viewer:
+* How to get started with the APS Viewer: [Viewer Basics](https://aps.autodesk.com/en/docs/viewer/v7/developers_guide/viewer_basics/)
+* How to move and rotate objects in the viewer: [Complex Viewer Transformations](https://aps.autodesk.com/blog/know-how-complex-component-transformations-viewer-part-1-basics)
 
 
 
 ### How to run the program
 #### To run model example in repository
 * download repo and extract zip folder
-* If you would like to run the app without needing a back-end (for authorization only), change the options variable to 'local' in the ForgeViewer.js file
+* If you would like to run the app without needing a back-end (you would only need it for authorization), change the options variable to 'local' in the ForgeViewer.js file
 ```
 options {
-    environment: 'local',
-    //environment: 'AutodeskProduction',
+    //env: 'AutodeskProduction',
+    env: 'local',
 }
 ```
 * run local server or just open html file (SVFTest.html)
@@ -48,7 +48,7 @@ for oTime = 0 to 60
 ```
 then you must update the line in ForgeVeiwer.js to:
 ```
-$('').att(max,60)
+$("#doorSlider").attr("max", 60);
 ```
 
 
@@ -60,8 +60,5 @@ $('').att(max,60)
 ## Acknowledgments
 
 Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+* [Viewer Rotations Blog Post]([https://github.com/matiassingers/awesome-readme](https://aps.autodesk.com/cloud_and_mobile/2016/07/rotate-component-control-for-the-viewer.html))
+* [Converting Inventor Models to SVF Blog Post]([https://gist.github.com/PurpleBooth/109311bb0361f32d87a2](https://aps.autodesk.com/blog/speed-viewable-generation-when-using-design-automation-inventor))
