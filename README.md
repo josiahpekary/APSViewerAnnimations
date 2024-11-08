@@ -4,7 +4,9 @@ This project is meant to gather annimation data from Inventor (through the compo
 This leverages the powerful constraint and assembly building capabilities in Inventor to drive annimations and transformations on the web
 
 
-https://github.com/user-attachments/assets/83aa3d13-a6ad-4bee-9823-ed294c9f54c9
+
+https://github.com/user-attachments/assets/12f5f12e-8756-453b-a23d-b179fd357c0d
+
 
 
 ## Description
