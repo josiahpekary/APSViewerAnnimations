@@ -60,5 +60,6 @@ $("#doorSlider").attr("max", 60);
 ## Acknowledgments
 
 Inspiration, code snippets, etc.
-* [Viewer Rotations Blog Post]([https://github.com/matiassingers/awesome-readme](https://aps.autodesk.com/cloud_and_mobile/2016/07/rotate-component-control-for-the-viewer.html))
-* [Converting Inventor Models to SVF Blog Post]([https://gist.github.com/PurpleBooth/109311bb0361f32d87a2](https://aps.autodesk.com/blog/speed-viewable-generation-when-using-design-automation-inventor))
+* [Viewer Rotations Blog Post](https://aps.autodesk.com/cloud_and_mobile/2016/07/rotate-component-control-for-the-viewer.html)
+* [Converting Inventor Models to SVF Blog Post](https://aps.autodesk.com/blog/speed-viewable-generation-when-using-design-automation-inventor)
+* [Scissor Lift Model](https://grabcad.com/library/vehicle-scissor-jack-1)
