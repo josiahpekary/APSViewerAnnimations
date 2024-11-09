@@ -19,7 +19,7 @@ that is used to gather the animation data from any Inventor assembly (with some 
 
 ### Prerequisites
 
-* Autodesk Inventor Professional and an assembly to be animated.
+* Autodesk Inventor Professional and an assembly to be animated
 * How to get started with the APS Viewer: [Viewer Basics](https://aps.autodesk.com/en/docs/viewer/v7/developers_guide/viewer_basics/)
 * How to move and rotate objects in the viewer: [Complex Viewer Transformations](https://aps.autodesk.com/blog/know-how-complex-component-transformations-viewer-part-1-basics)
 
