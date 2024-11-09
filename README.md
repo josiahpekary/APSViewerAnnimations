@@ -11,7 +11,7 @@ https://github.com/user-attachments/assets/12f5f12e-8756-453b-a23d-b179fd357c0d
 
 ## Description
 
-This repository consists of a simple front end application, (vanilla JS and Jquery). That initializes the APS viewer with a model and then reads transformation data from a text file.
+This repository consists of a simple front end application (vanilla JS and Jquery) that initializes the APS viewer with a model, and then reads transformation data from a text file.
 It then uses the data to transform each component of the model using the APS viewer API and the fragment proxy objects of each component. It also includes the VB script (in the form of an iLogic rule)
 that is used to gather the animation data from any Inventor assembly (with some very minor modifications to describe how the assembly moves).
 
