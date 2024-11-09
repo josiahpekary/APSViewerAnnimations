@@ -35,7 +35,7 @@ options {
     env: 'local',
 }
 ```
-* run local server or just open html file (SVFTest.html)
+* Run local server or just open html file (SVFTest.html)
 #### To run with your own Inventor Assembly
 * Download repo and extract zip
 * Create an iLogic rule in your assembly file and copy the contents of the 'iLogicScript.vb' file into it
