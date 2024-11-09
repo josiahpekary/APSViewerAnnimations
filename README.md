@@ -39,20 +39,21 @@ options {
 #### To run with your own Inventor Assembly
 * Download repo and extract zip
 * Create an iLogic rule in your assembly file and copy the contents of the 'iLogicScript.vb' file into it
-* Slightly modify the script as proposed in the comments of the rule. Within the frame for loop, add your own parameters and constraints to drive. For example...
+* Slightly modify the script as proposed in the comments of the rule. Within the frame for loop, add your own parameters and constraints to drive.
+    * For example...
 ```
 for oTime = 0 to 60
     Parameter("Your Parameter") = 1 + oTime * 2
 next
 ```
-...will drive the parameter from 0 to 120, all of the component data will be gathered during this movement and exported to a .txt file
+will drive the parameter from 0 to 120, all of the component data will be gathered during this movement and exported to a .txt file
 * Now translate the assembly to .svf and load the model into the viewer. 
 * You will need to update the max attribute of the slider to match the length of the frame data array. 
-    * For example, if you used:
+    * For example, if you used...
 ```
 for oTime = 0 to 60
 ```
-then you must update the line in ForgeVeiwer.js to:
+then you must update the line in ForgeVeiwer.js to...
 ```
 $("#doorSlider").attr("max", 60);
 ```
