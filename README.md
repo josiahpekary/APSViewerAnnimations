@@ -1,7 +1,7 @@
-# Export Annimations From Autodesk Inventor To The APS Viewer
+# Export Animations From Autodesk Inventor To The APS Viewer
 
-This project is meant to gather annimation data from Inventor (through the component data while driving constraints or parameters), and read that data in the APS viewer for the same object. 
-This leverages the powerful constraint and assembly building capabilities in Inventor to drive annimations and transformations on the web
+This project is meant to gather animation data from Inventor (through the component data while driving constraints or parameters), and read that data in the APS viewer for the same object. 
+This leverages the powerful constraint and assembly building capabilities in Inventor to drive animations and transformations on the web
 
 
 
@@ -13,13 +13,13 @@ https://github.com/user-attachments/assets/12f5f12e-8756-453b-a23d-b179fd357c0d
 
 This repository consists of a simple front end application, (vanilla JS and Jquery). That initializes the APS viewer with a model and then reads transformation data from a text file.
 It then uses the data to transform each component of the model using the APS viewer API and the fragment proxy objects of each component. It also includes the VB script (in the form of an iLogic rule)
-that is used to gather the annimation data from any Inventor assembly (with some very minor modifications to describe how the assembly moves).
+that is used to gather the animation data from any Inventor assembly (with some very minor modifications to describe how the assembly moves).
 
 ## Getting Started
 
 ### Prerequisites
 
-* Autodesk Inventor Proffesional and an assembly to be annimated.
+* Autodesk Inventor Professional and an assembly to be animated.
 * How to get started with the APS Viewer: [Viewer Basics](https://aps.autodesk.com/en/docs/viewer/v7/developers_guide/viewer_basics/)
 * How to move and rotate objects in the viewer: [Complex Viewer Transformations](https://aps.autodesk.com/blog/know-how-complex-component-transformations-viewer-part-1-basics)
 
