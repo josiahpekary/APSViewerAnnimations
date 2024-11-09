@@ -27,7 +27,7 @@ that is used to gather the animation data from any Inventor assembly (with some 
 
 ### How to run the program
 #### To run model example in repository
-* download repo and extract zip folder
+* Download repo and extract zip folder
 * If you would like to run the app without needing a back-end (you would only need it for authorization), change the options variable to 'local' in the ForgeViewer.js file
 ```
 options {
