@@ -1,7 +1,7 @@
 # Export Animations From Autodesk Inventor To The APS Viewer
 
 This project is meant to gather animation data from Inventor (through the component data while driving constraints or parameters), and read that data in the APS viewer for the same object. 
-This leverages the powerful constraint and assembly building capabilities in Inventor to drive animations and transformations on the web
+This leverages the powerful constraint and assembly building capabilities in Inventor to drive animations and transformations on the web.
 
 
 
